@@ -33,19 +33,19 @@
     @apply text-xs;
   }
   .header__nav {
-    @apply bg-white flex flex-col gap-5 pt-1 fixed w-[100%] h-full top-[6.2rem] text-center font-semibold duration-700 right-[-100%] lg:h-auto lg:w-auto lg:static lg:bg-transparent z-50;
+    @apply bg-white flex flex-col gap-5 pt-1 fixed w-[100%] h-full top-[7.2rem] text-center font-semibold duration-700 right-[-100%] lg:h-auto lg:w-auto lg:static lg:bg-transparent z-50;
   }
   .header__nav.open {
     @apply right-0 z-50 overflow-y-hidden;
   }
   .header__nav li a {
-    @apply text-black/80 hover:text-primary;
+    @apply text-black/80;
   }
   .header__nav li {
-    @apply items-center border-l-2 px-[4rem] py-3;
+    @apply items-center lg:border-l-2 px-[4rem] py-3;
   }
   .header__nav li:first-child {
-    @apply border-none pl-12;
+    @apply border-none lg:pl-12;
   }
   .header__nav li:last-child {
     @apply lg:pr-0;
